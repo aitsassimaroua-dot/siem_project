@@ -1,17 +1,26 @@
 filebeat.inputs:
-  - type: filestream        # Utilisation de filestream pour lire les fichiers
-    id: auth_app_logs
-    enabled: true
-    paths:
-      - /Users/mac/Downloads/siem_project/logs/auth_app.log
-    encoding: utf-8
-    # Ajout optionnel : start_position pour lire depuis le début du fichier
-    start_position: beginning
+- type: filestream
+  enabled: true
+  id: auth_app_logs
+  paths:
+    - /Users/mac/Downloads/DataSecurity-Project/logs/auth_app.log
+  encoding: utf-8
 
-# Configuration de sortie vers Logstash
+
+# Sortie vers Logstash
 output.logstash:
   hosts: ["localhost:5044"]
 
-# Configuration du template et de la gestion ILM
-setup.template.enabled: true
+# Désactiver ILM
 setup.ilm.enabled: false
+
+# Template auto
+setup.template.enabled: true
+
+logging.level: info
+logging.to_files: true
+logging.files:
+  path: ./logs
+  name: filebeat
+  keepfiles: 7
+  permissions: 0644
