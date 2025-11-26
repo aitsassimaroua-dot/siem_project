@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Flask logs
+*.log
+
+# AI data files (generated)
+Ai/data/*.csv
+
+# Saved ML models
+Ai/models/*.joblib
+
+# Virtual environments
+venv/
+.env
+
+# OS trash
+.DS_Store
+Thumbs.db
