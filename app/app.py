@@ -55,4 +55,4 @@ def open_browser():
 # ICI AUSSI : _name_ et "_main_" (deux underscores)
 if __name__ == "__main__":
     threading.Thread(target=open_browser).start()
-    app.run(debug=True)
+
