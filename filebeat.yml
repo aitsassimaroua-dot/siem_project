@@ -1,0 +1,15 @@
+filebeat.inputs:
+  - type: filestream
+    id: auth_app_logs
+    enabled: true
+    paths:
+      - "C:/Users/ajana/Downloads/DataSecurity-Project/logs/auth_app.log"
+    encoding: utf-8
+    start_position: beginning
+
+output.logstash:
+  hosts: ["localhost:5044"]
+
+setup.template.enabled: true
+setup.ilm.enabled: false
+
