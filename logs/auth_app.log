@@ -2,3 +2,5 @@
 2025-11-26T17:49:39Z;user=alice;ip=127.0.0.1;status=FAIL;reason=unknown_user
 2025-11-26T17:56:12Z;user=alice;ip=127.0.0.1;status=FAIL;reason=bad_password
 2025-11-26T17:56:30Z;user=alice;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-11-26T19:20:21Z;user=alice;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-11-26T19:20:33Z;user=alice;ip=127.0.0.1;status=FAIL;reason=bad_password
