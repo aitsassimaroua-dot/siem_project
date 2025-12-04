@@ -6,7 +6,8 @@ import time
 from auth import authenticate  # s'il est dans le même dossier que app.py
 
 
-app = Flask(__name__)   # <<< ICI : __name_ (deux underscores)
+# ICI : il faut _name_ (deux underscores avant et après)
+app = Flask(__name__)
 
 
 @app.route("/")
@@ -51,6 +52,7 @@ def open_browser():
     webbrowser.open("http://127.0.0.1:5000/login")
 
 
-if __name__ == "__main__":   # <<< ICI AUSSI : __name__
+# ICI AUSSI : _name_ et "_main_" (deux underscores)
+if __name__ == "__main__":
     threading.Thread(target=open_browser).start()
-    app.run(debug=True)
+
