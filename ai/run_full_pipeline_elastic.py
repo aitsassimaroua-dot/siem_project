@@ -11,7 +11,7 @@ from config import (
 from elastic_client import fetch_index_as_dataframe, bulk_index
 from ueba_risk_score import build_user_profiles, enrich_with_risk
 from ml_anomaly import train_model, score_events
-from merge_alerts import compute_severity
+from ai.alert_fusion import compute_severity
 
 
 def run_pipeline_from_elastic():
