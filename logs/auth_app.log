@@ -9,3 +9,274 @@
 2025-12-08T19:41:43Z;user=oumaima;ip=127.0.0.1;status=FAIL;reason=unknown_user
 2025-12-08T19:42:01Z;user=hanane;ip=127.0.0.1;status=FAIL;reason=unknown_user
 2025-12-08T19:42:37Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T20:23:30Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T20:23:38Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T20:23:49Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T20:23:52Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T20:24:00Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T20:24:07Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T20:35:34Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T20:35:44Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T20:35:47Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T20:35:58Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T20:36:04Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T20:36:18Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T20:36:22Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T20:36:32Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T20:36:35Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T20:36:45Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T20:36:51Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T20:36:53Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:30:27Z;user=admin;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:31:14Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-09T21:31:35Z;user=1=1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-09T21:31:41Z;user=select;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:32:17Z;user=select;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:32:33Z;user=select;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:32:35Z;user=select;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:32:41Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-09T21:32:47Z;user=1=1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-09T21:32:52Z;user=select;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:32:58Z;user=insert;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:33:26Z;user=insert;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-09T21:33:52Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T22:22:00Z;user=maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T22:25:41Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-09T22:27:34Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-09T22:27:38Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T00:30:00Z;user=test;ip=9.9.9.9;status=FAIL;reason=new_event_test
+2025-12-10T00:40:00Z;user=test123;ip=8.8.8.8;status=FAIL;reason=manual_test
+2025-12-09T22:36:36Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T22:43:18Z;user=maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T22:43:23Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-09T22:46:37Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-09T22:46:40Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T22:46:42Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T22:46:45Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-09T22:46:49Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T18:58:29Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T18:58:32Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T18:58:37Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T18:58:48Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T20:27:32Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T20:27:35Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T20:27:38Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:30:21Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T21:30:23Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:30:25Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:30:27Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:30:53Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:30:57Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:30:59Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:31:02Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:31:06Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:31:09Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T21:31:12Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:06:10Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:06:14Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:06:24Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:46:52Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:47:15Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:47:36Z;user=Raroua;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-10T22:47:45Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:48:04Z;user=Rania;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:48:12Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:48:17Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:48:24Z;user=alice;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:48:29Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T22:48:42Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:50:16Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:50:24Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:50:27Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:54:01Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:54:06Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:54:18Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T22:54:28Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:54:29Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:54:34Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:54:42Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T22:54:49Z;user=marooua;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-10T22:54:53Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T22:55:00Z;user=1=1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T22:58:19Z;user=1=1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T22:58:24Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T22:58:25Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T22:58:27Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T22:58:28Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T22:58:30Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T23:04:05Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T23:04:18Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T23:04:24Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-10T23:05:12Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T23:10:25Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-10T23:10:29Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-10T23:10:36Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T19:58:59Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T19:59:04Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:04:06Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:04:09Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:09:16Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:09:23Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:09:25Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:12:01Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:12:05Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:12:11Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T20:13:33Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T20:23:31Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:24:11Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:35:54Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:36:05Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:42:28Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:42:35Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:42:54Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:57:53Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:57:59Z;user=Admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T20:58:01Z;user=Admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T20:58:08Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:58:10Z;user=Hanae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:58:19Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:59:07Z;user=Chaymae;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:59:12Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T20:59:18Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T20:59:22Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T21:04:28Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T21:08:30Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T21:52:12Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T21:52:55Z;user=raniaa;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T21:53:00Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T22:11:16Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T22:47:45Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T22:47:53Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T22:48:01Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T22:48:07Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T22:48:09Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T22:48:11Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-11T22:48:17Z;user=raniaa;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T22:48:19Z;user=raniaa;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T22:48:21Z;user=raniaa;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T22:48:23Z;user=raniaa;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T22:48:25Z;user=raniaa;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T22:48:27Z;user=raniaa;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-11T23:12:29Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T23:14:52Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T23:14:58Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T23:15:01Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T23:15:06Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-11T23:15:09Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-12T16:45:09Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-12T16:45:12Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-12T16:45:23Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-12T17:01:34Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:01:36Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:01:42Z;user=1=1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:04:05Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:04:16Z;user=1=1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:13:43Z;user=1=1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:14:01Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:14:10Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:14:16Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:18:55Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:18:57Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:18:58Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:00Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:02Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:03Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:05Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:07Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:09Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:11Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:33Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:35Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:37Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:39Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:40Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:42Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:19:45Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:20:16Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:20:18Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:20:22Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:20:24Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:20:27Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:20:28Z;user=admin test 1;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:19Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:24Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:26Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:29Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:31Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-12T17:23:34Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:38Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-12T17:23:41Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:45Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:48Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:23:50Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:31:45Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:31:47Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:31:49Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:31:52Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:31:54Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:31:57Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:32:00Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:32:03Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:52:00Z;user=hacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:52:09Z;user=attacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:52:13Z;user=attacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:52:15Z;user=attacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:52:18Z;user=attacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:52:20Z;user=attacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:52:22Z;user=attacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:52:24Z;user=attacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:58:29Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:58:32Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:58:34Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:58:37Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:58:41Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:58:51Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:58:53Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:58:57Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T17:59:22Z;user=attacker2;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T19:34:16Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-12T19:34:24Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-12T19:34:47Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-12T19:34:58Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-12T19:35:58Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-12T19:39:11Z;user=attacker3;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-12T19:39:14Z;user=attacker3;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T16:05:33Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T16:05:37Z;user=Maroua;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-14T16:05:44Z;user=raniaa;ip=127.0.0.1;status=FAIL;reason=bad_password
+2025-12-14T16:05:48Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T16:06:23Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T16:06:38Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T16:10:23Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T16:10:25Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T16:10:27Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T19:14:59Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:15:12Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:15:24Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:21:14Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:23:38Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:23:49Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:23:59Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:24:08Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:24:21Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T19:24:31Z;user=attacker;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T19:31:31Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:31:41Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:31:52Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:32:03Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T19:32:10Z;user=admin;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T19:32:21Z;user=hacker5;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T19:42:48Z;user=hacker5;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T19:42:51Z;user=hacker5;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-14T19:42:54Z;user=hacker5;ip=127.0.0.1;status=FAIL;reason=unknown_user
+2025-12-14T20:58:26Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T20:58:34Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T20:59:03Z;user=admin8;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T20:59:06Z;user=admin8;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T20:59:09Z;user=admin8;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T21:06:06Z;user=Maroua;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T21:06:12Z;user=raniaa;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T21:06:20Z;user=Chaymae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T21:06:28Z;user=Hanae;ip=127.0.0.1;status=SUCCESS;reason=ok
+2025-12-14T21:06:44Z;user=attacker9;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt
+2025-12-14T21:06:47Z;user=attacker9;ip=127.0.0.1;status=FAIL;reason=sql_injection_attempt

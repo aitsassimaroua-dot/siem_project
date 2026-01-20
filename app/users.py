@@ -1,34 +1,66 @@
+# users.py
+import mysql.connector
 from werkzeug.security import generate_password_hash, check_password_hash
-import json, os
 
-USERS_FILE = os.path.join(os.path.dirname(__file__), "users.json")
+MYSQL_CONFIG = {
+    "host": "127.0.0.1",
+    "port": 3307,
+    "user": "authuser",
+    "password": "authpass",
+    "database": "authdb",
+}
 
-def load_users():
-    if not os.path.exists(USERS_FILE):
-        return {}
-    with open(USERS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+def db_connect():
+    return mysql.connector.connect(**MYSQL_CONFIG)
 
-def save_users(users_dict):
-    with open(USERS_FILE, "w", encoding="utf-8") as f:
-        json.dump(users_dict, f, indent=4, ensure_ascii=False)
 
+# -----------------------------
+# Vérifier si utilisateur existe
+# -----------------------------
 def user_exists(username):
-    users = load_users()
-    return username in users
+    conn = db_connect()
+    try:
+        cursor = conn.cursor()
+        cursor.execute("SELECT id FROM users WHERE username = %s", (username,))
+        return cursor.fetchone() is not None
+    finally:
+        conn.close()
 
-def verify_password(username, password):
-    users = load_users()
-    if username not in users:
-        return False
-    hashed_pw = users[username]
-    return check_password_hash(hashed_pw, password)
 
+# -----------------------------
+# Créer un utilisateur
+# -----------------------------
 def create_user(username, password):
-    users = load_users()
-    if username in users:
+    if user_exists(username):
         return False
-    hashed_pw = generate_password_hash(password)  # hash sécurisé
-    users[username] = hashed_pw
-    save_users(users)
-    return True
+
+    hashed_pw = generate_password_hash(password, method="scrypt")
+
+
+    conn = db_connect()
+    try:
+        cursor = conn.cursor()
+        cursor.execute(
+            "INSERT INTO users (username, password_hash) VALUES (%s, %s)",
+            (username, hashed_pw),
+        )
+        conn.commit()
+        return True
+    finally:
+        conn.close()
+
+
+# -----------------------------
+# Vérifier le mot de passe
+# -----------------------------
+def verify_password(username, password):
+    conn = db_connect()
+    try:
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute("SELECT password_hash FROM users WHERE username = %s", (username,))
+        row = cursor.fetchone()
+        if not row:
+            return False
+        return check_password_hash(row["password_hash"], password)
+    finally:
+        conn.close()

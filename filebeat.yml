@@ -3,7 +3,7 @@ filebeat.inputs:
     id: auth_app_logs
     enabled: true
     paths:
-      - /Users/mac/Downloads/siem_project/logs/auth_app.log
+      - /Users/mac/Downloads/DataSecurity-Project/logs/auth_app.log
     encoding: utf-8
     # Ajout optionnel : start_position pour lire depuis le début du fichier
     start_position: beginning
